@@ -12,3 +12,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::selection {
+    color: #00EB8F;
+    background-color: #E6FDF4 ;
+}
+
+img {
+    user-select: none;
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none;    /* For Firefox */
+    -ms-user-select: none;    /* For Internet Explorer/Edge */
+}
