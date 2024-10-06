@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="page1 h-screen w-full overflow-hidden relative"> <!-- Ensured parent is relative -->
+
+        <div class="nav px-[45px] py-[30px] flex items-center justify-between">
+            <div class="left text-4xl font-custom cursor-pointer font-medium hover:text-[34px] duration-500 ease-in-out hover:text-black/50  w-[13%] h-[20%] flex justify-center items-center">
+                this is digital
+                <span class="w-[10px] h-[10px] rounded-full bg-[#00EB8F] mt-4 ml-2"></span>
+            </div>
+            <div class="right flex items-center  gap-10 cursor-pointer">
+                <h2 class="relative group h-10 overflow-hidden mt-2">
+                    Services
+                    <div class="w-full h-1 bg-[#00EB8F] absolute left-[-100%] group-hover:left-0 duration-300"></div>
+                </h2>
+                <h2 class="relative group h-10 overflow-hidden  mt-2">
+                    Work
+                    <div class="w-full h-1 bg-[#00EB8F] absolute left-[-100%] group-hover:left-0 duration-300"></div>
+                </h2>
+                <h2 class="relative group h-10 overflow-hidden  mt-2">
+                    About
+                    <div class="w-full h-1 bg-[#00EB8F] absolute left-[-100%] group-hover:left-0 duration-300"></div>
+                </h2>
+                <h2 class="relative group h-10 overflow-hidden  mt-2">
+                    Culture
+                    <div class="w-full h-1 bg-[#00EB8F] absolute left-[-100%] group-hover:left-0 duration-300"></div>
+                </h2>
+                <h2 class="relative group h-10 overflow-hidden  mt-2">
+                    Carrer
+                    <div class="w-full h-1 bg-[#00EB8F] absolute left-[-100%] group-hover:left-0 duration-300"></div>
+                </h2>
+                
+                <h2 class="group border border-black/30 px-2 py-1 rounded-full relative overflow-hidden">
+                    <div class="relative z-20 w-full h-full flex items-center justify-center">
+                        <button>Contact Us</button>
+                        <span><i class="ri-arrow-right-fill "></i></span>
+                    </div>
+                    <div class="absolute will-change-transform group-hover:left-0 duration-500 w-full h-full bg-[#00EB8F] top-0 left-[-100%] z-10 "></div>
+                </h2>
+            </div>
+        </div>
+
+        <div class="main w-full max-h-full relative"> <!-- Added relative to main -->
+
+            <!-- Center Text (highest z-index) -->
+            <div class="main-text absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-8xl z-20"> <!-- z-index is now 20 -->
+                <div class="font-custom "><h1>Digital Performance</h1></div>
+
+                <div class="w-full mt-4 flex items-center justify-center flex-col">
+                    <h1 class="flex items-cente font-custom">Solutions</h1>
+
+                    <span class="h-[20px] w-[400px]">
+                        <img id="image" class="w-full h-full object-fill" src="https://thisisdigital.co.uk/dist/images/underline-green.svg" alt="line-image">
+                    </span>
+                </div>
+            </div>
+
+            <!-- Image Section -->
+            <div class="relative w-full h-full px-40 flex justify-between">
+                <!-- Left Image (lower z-index) -->
+                <div class="left-image w-[30%] h-full z-10 relative "> <!-- z-index 10 -->
+                    <img id="image1" src="https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-75.jpg?w=1200&h=1731&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631017685&s=333b9abfa858cf7b8685e28a597dfa08" alt="" class="mt-14">
+                </div>
+
+                <!-- Right Image Section -->
+                <div class=" right-image w-[35%] h-full flex flex-col justify-between">
+                    <img id="image2" class=" w-[50%] mt-6" src="https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-23.jpg?w=1200&h=1008&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631003343&s=88354e145206a527c989b49f760a89d3" alt="">
+
+                    <img id="image3" class=" w-[70%] mt-[30%] ml-[30%]" src="https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-81.jpg?w=1200&h=1200&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631005177&s=21e4c0bb5ce83f57e69f404637d61265" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="page2 w-full h-[50vh] bg-black flex items-center justify-center text-white flex-col">
+
+        <div class="top flex items-center mb-4">
+            <div class="w-[15px] h-[15px] bg-[#00EB8F] rounded-full mr-4"></div>
+            <div class="text-lg  ">A Digital Performance Solutions Agency in Manchester</div>
+        </div>
+        
+        <div class="middle mt-4 text-6xl w-[55%] text-center font-custom leading-tight text-white mb-4">
+            <h1>We combine network agency expertise, with a highly collaborative relationship. We’re a little different, This is Digital.</h1>
+        </div>
+
+        <div class="group bottom  flex items-center justify-center text-2xl gap-5 mt-4">
+            <p>About Us</p>
+            <div class="about-page2 relative overflow-hidden border border-white/30 rounded-full ">
+                <span class=" z-20 relative px-6 "><i class="ri-arrow-right-line"></i></span>
+                <div class="w-full h-full bg-[#00EB8F] absolute top-0 left-[-100%] z-0 group-hover:left-0 duration-500"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="page3 h-screen w-full relative overflow-x-hidden">
+        <img src="https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-69.jpg?w=800&h=2518&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002290&s=33b3b284e2298e725e8837d662a3f3bd" alt="" class="h-[550px] image4">
+        <img src="https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-82.jpg?w=800&h=1200&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002337&s=2c36e03420200c6347fed613ee6ed7d3" alt="" class="h-[250px] absolute top-[580px] image5">
+        <img src="https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-10.jpg?w=1200&h=750&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002227&s=e9befa27c3cb6b4742db66b7d49131e1" alt="" class="h-[250px] absolute top-0 left-[200px] image6">
+        <img src="https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-2.jpg?w=1200&h=1353&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002176&s=5d4bc2c79348dc9d5effc2ed0a267366" alt="" class="h-[650px]  absolute top-[300px] left-[200px] image7">
+
+        <div class="w-[60%] h-[80%]  absolute top-1/2 left-2/3 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center flex-col gap-8">
+            <h1 class="conent-page3 text-6xl font-custom w-[50%] text-start mb-4 leading-none relative">
+                <img class="absolute h-[80px] w-[230px] left-[120px]" src="https://thisisdigital.co.uk/dist/images/circle-green.svg" alt="">
+                Your solution to digital performance.
+            </h1>
+
+            <p class="conent-page3 w-[50%] leading-normal text-gray-600 mb-4">We want to take the pressure off for you. Simple. Our digital performance solutions cover a range of digital channels and services to help you in every aspect of digital marketing. From strategic digital consultancy to in-channel management, we have the skills and experience to make significant commercial improvements to our clients’ digital presence.</p>
+
+            <div class="arrow-page3 flex gap-4 text-xl items-center group relative">
+                <p class="relative">Learn more about</p>
+                <div class="border border-black/30 px-4 rounded-full relative overflow-hidden">
+                   <span class="relative z-20">our services  <i class="ri-arrow-right-fill"></i></span>
+                    <div class="w-full h-full bg-[#00EB8F] absolute top-0 left-[-100%] z-10 group-hover:left-0 duration-500"></div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    
+
+</body>
+</html>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="module" src="script.js"></script>
