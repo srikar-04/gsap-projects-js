@@ -1,59 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="output.css">
     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-</head>
-<body>
-    <div class="total">
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="total scrollbar-hidden bg-[#1C1C19] overflow-x-hidden">
 
+        
+      <div class="scroll">
         <!---------------------- Page 1 --------------------->
 
-        <div class="page1 h-[100vh] w-full bg-[#BCB4AB]">
-            
-            <!------------------- nav ------------------>
-            <div class="nav h-[11vh] flex items-center justify-between px-9 border-b border-black/50">
-                <h1 class="font-editorialNewLight w-[33%]">Amsterdam, NL</h1>
-                <div class=" h-[28px] cursor-pointer">
-                    <img class="h-full " src="https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/5f7f87c8b81a6e7a214312f0_header.svg" alt="">
-                </div>
-                <div class="w-[33%] text-end text-2xl cursor-pointer"><i class="ri-menu-4-line"></i></div>
+        <div class="page1 min-h-[100vh] w-full bg-[#BCB4AB] overflow-hidden">
+          <!------------------- nav ------------------>
+          <div
+            class="nav h-[11vh] flex items-center justify-between px-9 border-b border-black/50"
+          >
+            <h1 class="font-editorialNewLight w-[33%]">Amsterdam, NL</h1>
+            <div class="h-[28px] cursor-pointer">
+              <img
+                class="h-full"
+                src="https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/5f7f87c8b81a6e7a214312f0_header.svg"
+                alt=""
+              />
+            </div>
+            <div class="w-[33%] text-end text-2xl cursor-pointer">
+              <i class="ri-menu-4-line"></i>
+            </div>
+          </div>
+
+          <!------------------- elemtens  ------------------------------>
+          <div class="elems flex justify-between items-center gap-5 px-10">
+            <div
+              class="elem1 cursor-pointe px-10 h-full w-[34%] flex flex-col gap-3 mt-14"
+            >
+              <div
+                class="elem1-image overflow-hidden w-[100%] h-[70%] border-2 border-black/50"
+              >
+                <img
+                  class="w-full h-full object-cover hover:scale-110 duration-300"
+                  src="https://cdn.prod.website-files.com/5f9085a4041dd5427c5ac8ae/615d9672cc65f12c9ab25f21_thumbnail-small.jpeg?"
+                  alt=""
+                />
+              </div>
+              <h1 class="font-canopee text-3xl font-semibold">
+                AVRO | KO
+                <span
+                  class="bg-orange-700 p-1 rounded-lg text-white/70 font-light"
+                  >NEW</span
+                >
+              </h1>
+              <p class="text-2xl font-editorialNewLight leading-tight mt-3">
+                AvroKo is an award winning golobal disign firm, established
+                itself as a global leader in interiror architecture for
+                hospitality, restaurant and bars
+              </p>
             </div>
 
-            <!------------------- elemtens  ------------------------------>
-            <div class="elems flex justify-between items-center  h-[38vh] gap-5 mt-4 px-10">
-                <div class="elem1 cursor-pointe px-10 h-full w-[34%] flex flex-col gap-3 mt-14 ">
-                    <div class="elem1-image overflow-hidden w-[100%] h-[70%] border-2 border-black/50">
-                        <img class="w-full h-full object-cover  hover:scale-110 duration-300" src="https://cdn.prod.website-files.com/5f9085a4041dd5427c5ac8ae/615d9672cc65f12c9ab25f21_thumbnail-small.jpeg?" alt="">
-                    </div>
-                    <h1 class="font-canopee text-3xl font-semibold">AVRO | KO <span class="bg-orange-700 p-1 rounded-lg text-white/70 font-light">NEW</span></h1>
-                    <p class="text-2xl font-editorialNewLight leading-tight mt-3">AvroKo is an award winning golobal disign firm, established itself as a global leader in interiror architecture for hospitality, restaurant and bars</p>
-                </div>
-
-                <div class="elem2 cursor-pointer mt-14 h-full w-[34%] px-10 flex flex-col  justify-center items-center gap-7 border-x border-black">
-                    <h1 class="text-8xl tracking-tighter font-canopee">All Work!</h1>
-                    <h3 class="text-5xl text-center leading-tight font-editorialNewLight text-gray-800">A Featured selection <br/> the latest work - <br/> of last years.</h3>
-                    <h4 class="font-editorialNewLight text-[22px]"><span class="font-semibold">Tip!</span>Drag sideways to navigate</h4>
-                </div>
-
-                <div class="elem3 cursor-pointe px-10 h-full w-[34%] flex flex-col gap-3 mt-14">
-                    <div class="elem3-image overflow-hidden w-[100%] h-[70%] border-2 border-black/50">
-                        <img class="w-full h-full object-cover  hover:scale-110 duration-300" src="https://cdn.prod.website-files.com/5f9085a4041dd5427c5ac8ae/645b5439577bd35377de8c43_thumbnail-small.webp?" alt="">
-                    </div>
-                    <h1 class="font-canopee text-3xl font-semibold">The Roger Hub <span class="bg-orange-700 p-1 rounded-lg text-white/70 font-light">NEW</span></h1>
-                    <p class="text-2xl font-editorialNewLight leading-tight mt-3">AvroKo is an award winning golobal disign firm, established itself as a global leader in interiror architecture for hospitality, restaurant and bars</p>
-                </div>
+            <div
+              class="elem2 cursor-pointer mt-14 h-full w-[34%] px-10 flex flex-col justify-center items-center gap-7 border-x border-black"
+            >
+              <h1 class="text-8xl tracking-tighter font-canopee">All Work!</h1>
+              <h3
+                class="text-5xl text-center leading-tight font-editorialNewLight text-gray-800"
+              >
+                A Featured selection <br />
+                the latest work - <br />
+                of last years.
+              </h3>
+              <h4 class="font-editorialNewLight text-[22px]">
+                <span class="font-semibold">Tip!</span>Drag sideways to navigate
+              </h4>
             </div>
 
+            <div
+              class="elem3 cursor-pointe px-10 h-full w-[34%] flex flex-col gap-3 mt-14"
+            >
+              <div
+                class="elem3-image overflow-hidden w-[100%] h-[70%] border-2 border-black/50"
+              >
+                <img
+                  class="w-full h-full object-cover hover:scale-110 duration-300"
+                  src="https://cdn.prod.website-files.com/5f9085a4041dd5427c5ac8ae/645b5439577bd35377de8c43_thumbnail-small.webp?"
+                  alt=""
+                />
+              </div>
+              <h1 class="font-canopee text-3xl font-semibold">
+                The Roger Hub
+                <span
+                  class="bg-orange-700 p-1 rounded-lg text-white/70 font-light"
+                  >NEW</span
+                >
+              </h1>
+              <p class="text-2xl font-editorialNewLight leading-tight mt-3">
+                AvroKo is an award winning golobal disign firm, established
+                itself as a global leader in interiror architecture for
+                hospitality, restaurant and bars
+              </p>
+            </div>
+          </div>
+
+          <!--------------------- long text ----------------------->
+          <h1
+            class="text-[700px] bg-[#1C1C19] text-[#C4BCB3] font-canopee leading-[60vh] mt-12 mx-12 tracking-tighter text-center"
+          >
+            Miranda
+          </h1>
         </div>
 
+        <!---------------------- page 2 ------------------->
+        <div
+          class="page2 w-full min-h-screen bg-[#c4bcb3] pt-16 flex overflow-hidden"
+        >
+          <!--------------- left section ------------------>
+          <div
+            class="page2-left flex flex-col gap-6 w-[35%] px-10 font-extralight text-[#1C1B19] border-r border-black/50"
+          >
+            <h1
+              class="uppercase font-canopee text-[150px] leading-none tracking-tighter"
+            >
+              interactive <span class="text-[200px]">artist!</span>
+            </h1>
+            <div class="h-[72vh] border border-black/30 w-[28vw]">
+              <img
+                class="w-full h-full object-cover"
+                src="https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c6ce3bc0c7d1cd4ca847e_avatar-star-p-800.jpeg"
+                alt=""
+              />
+            </div>
+            <p
+              class="text-[4vh] leading-tight font-editorialNewLight text-[#1C1C1A]"
+            >
+              As a mutlidisciplinary freelancer, I'm passionate about creating
+              iconic digital experiences through motion, typography, and
+              creative coding for companies and agencies around the world
+            </p>
+          </div>
+
+          <!----------------- right section ------------------>
+          <div class="page2-right w-full h-[145vh] px-10 flex flex-col gap-8">
+            <div class="h-[80vh]">
+              <img
+                class="h-full w-full object-cover"
+                src="https://cdn.prod.website-files.com/5f2429f172d117fcee10e819/605c62f4c78c4ba46a1268be_avatar-1-p-2000.jpeg"
+                alt=""
+              />
+            </div>
+            <h1
+              class="uppercase text-[15vh] font-canopee leading-none tracking-tighter text-center text-[#1B1B19]"
+            >
+              digital art director <br />
+              interactive designer <br />
+              creative developer <br />
+              based in amsterdam, nl
+            </h1>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
+
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+  integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
 <script type="module" src="script.js"></script>
