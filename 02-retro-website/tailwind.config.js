@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        canopee: ['Canopee', 'sans-serif'], // 'sans-serif' is a fallback
+        domaineDispCond: ['DomaineDispCondMedium', 'sans-serif'],
+        editorialNewLight: ['Editorial New Light', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

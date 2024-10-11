@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'Canopee';
+    src: url('../fonts/Canopee.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DomaineDispCondMedium';
+    src: url("../fonts/5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Editorial New Light';
+    src: url('../fonts/5f242a694256f02b944d5767_EditorialNew-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
