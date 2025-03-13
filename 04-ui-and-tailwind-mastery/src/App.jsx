@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <main className='container mb-14'>
+      <main className='container mb-12'>
         <h1 className='text-4xl text-blue-700 mb-6'>:focus :outline :hover :active</h1>
           <button className='bg-white px-4 py-2 rounded-lg hover:text-blue-500 text-black focus:outline focus:outline-offset-2 focus:outline-yellow-500 active:bg-red-500 active:text-white'>UI Masterclass</button>
       </main>
