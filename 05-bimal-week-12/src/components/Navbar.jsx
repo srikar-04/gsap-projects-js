@@ -14,7 +14,7 @@ function Navbar() {
                 Products
             </a>
             <button className='bg-orange-600 text-white font-medium px-4 py-2 rounded-lg hover:bg-orange-700 transition-all duration-300'>
-                Die Now
+                Login
             </button>
         </div>
     </nav>
