@@ -4,16 +4,19 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Content from './components/Content'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div className='text-2xl text-orange-500'>Bolo Zubaan Kesari</div>
+    <main>
       <Navbar />
       <Hero />
-    </>
+      <Content />
+      <Footer />
+    </main>
   )
 }
 
