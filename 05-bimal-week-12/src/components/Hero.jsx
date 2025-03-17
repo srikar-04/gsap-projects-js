@@ -20,7 +20,7 @@ function Hero() {
 
             <img 
                 src={bimalImage}
-                className='w-[40%] h-full '
+                className='md:w-[40%] w-[80%] h-full '
                 alt="ajay-devgan" 
                 width={500}
                 height={500}
